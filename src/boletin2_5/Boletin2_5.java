@@ -30,12 +30,9 @@ public class Boletin2_5 {
         die=dia*30;
         bruto=fixo+c+k+die;
         System.out.println("O soldo bruto a percibir é: "+(bruto)+"€");
-        double i,r,t;
-        i=bruto*18/100;
-        r=i-36;
-        System.out.println("O soldo líquido a percibir é: "+(r)+"€");
-        t=bruto-i;
-        System.out.println("O soldo total é: "+(t)+"€");
+        double i;
+        i=bruto-bruto*0.18-36;
+        System.out.println("O soldo total é: "+(i)+"€");
     }
         
 }
